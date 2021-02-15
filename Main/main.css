@@ -1,16 +1,42 @@
 /* Developed mobile first */
-body{
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-}
 
-form {
-    width: 80%;
-    border: solid 2px grey;
-}
+@media screen and (max-width: 800px) {
+    body{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        background-color:rgb(221, 236, 233);
+        width: 100%;
+    }
+    
+    .wrapper {
+        height: 60vh;
+        background-color: rgb(216, 238, 233);   
+    }
 
-label {
-    margin: 1.5m;
-    padding: 1.5em;
-}
+    .navigation {
+        border-bottom: solid 2px grey;
+
+    }
+    .banner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .banner p {
+        margin: 20%;
+        padding: 0;
+        text-align: center;
+    }
+
+    
+    img{
+        width: 80%;
+        border-radius: 50% 20% / 10% 40%;
+        margin-top: 10%;
+        margin-left: 10%;
+    
+    }
+    }
+  } 
